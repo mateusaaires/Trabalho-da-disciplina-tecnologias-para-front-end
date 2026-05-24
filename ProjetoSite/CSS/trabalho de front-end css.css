@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* TOPO */
+
+#topo{
+    width: 980px;
+    height: 90px;
+    background-color: #21272B;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#logo h1{
+    color: #1BB4E8;
+    font-style: italic;
+}
+
+#logo p{
+    color:#FFFFFF;
+    font-size: 28px;
+    font-style: italic;
+}
+
+#menu ul{
+    display: flex;
+    list-style: none;
+}
+
+#menu li{
+    padding: 0 15px;
+    border-right: 1px solid #FFFFFF;
+}
+
+#menu li:last-child{
+    border-right: none;
+}
+
+#menu ul{
+    display: flex;
+    gap: 20px;
+
+    list-style: none;
+}
+
+#menu a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#menu a:hover{
+    color: #1BB4E8;
+}
+
+/* BANNER */
+
+#banner{
+    width: 980px;
+    margin: auto;
+    position: relative;
+}
+
+#banner img{
+    width: 100%;
+}
+
+#caixa-texto{
+    width: 405px;
+    height: 195px;
+    background-color:#1a3243b2;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+#caixa-texto h2{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-style: italic;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+#telefone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#telefone p{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+#telefone span{
+    color: #C6B07F;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#telefone img{
+    width: 40px;
+    height: 40px;
+}
+
+#telefone p{
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 25px;;
+}
+
+/* CONTEÚDO */
+
+#conteudo{
+    width: 1000px;
+    background-color: #FFFFFF;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.card{
+    width: 45%;
+}
+
+.card h2{
+    font-size: 21px;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.azul{
+    background-color:#1BB4E8;
+}
+
+.bege{
+    background-color: #C6B07F;
+}
+
+.titulo h3{
+    color: #FFFFFF;
+    font-style: italic;
+    font-size: 28px;
+}
+
+.card h2{
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.card p{
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.imagem-grande{
+    width: 100%;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.galeria img{
+    width: 100%;
+}
+
+/* RODAPÉ */
+
+footer{
+    width: 1000px;
+    background-color: #e5e5e5;
+    margin: auto;
+    padding: 25px;
+}
